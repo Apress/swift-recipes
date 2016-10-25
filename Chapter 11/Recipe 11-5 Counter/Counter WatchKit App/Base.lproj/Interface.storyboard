@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Counter_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="136" alignment="center" verticalAlignment="bottom" title="Push Me" id="W3B-N3-Y8t">
+                            <connections>
+                                <action selector="increment" destination="AgC-eL-Hgc" id="Pc8-7m-bMh"/>
+                            </connections>
+                        </button>
+                        <label width="136" alignment="center" text="Label" textAlignment="center" id="bsc-gz-Yt3">
+                            <fontDescription key="font" type="boldSystem" pointSize="40"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="counter" destination="bsc-gz-Yt3" id="6Zd-to-LF3"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

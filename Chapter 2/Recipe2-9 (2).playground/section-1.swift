@@ -1,0 +1,1 @@
+enum Measure{    case Cup(Double)    case Tablespoon (Double)    case Ounce (Double)    case Quantity (Int)}struct Ingredient{    var name : String    var amount : Measure    var preparationInstructions : String}var eggs = Ingredient(name: "Eggs", amount: Measure.Quantity(2), preparationInstructions: "Beat eggs in a bowl and set aside")

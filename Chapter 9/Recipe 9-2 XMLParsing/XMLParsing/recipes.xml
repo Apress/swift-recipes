@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<recipes>
+    <recipe>
+        <name>Pot Pie</name>
+        <serves>1</serves>
+        <preparation-time>60</preparation-time>
+    </recipe>
+    <recipe>
+        <name>Pizza</name>
+        <serves>6</serves>
+        <preparation-time>20</preparation-time>
+    </recipe>
+</recipes>

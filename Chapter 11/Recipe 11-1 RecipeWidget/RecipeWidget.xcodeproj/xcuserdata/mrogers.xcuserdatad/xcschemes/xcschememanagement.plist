@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RandomRecipe.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>RecipeWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F37A1C8D1AF7B51300C20F8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F37A1CA21AF7B51300C20F8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F37A1CB61AF7B52A00C20F8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F37A1CCF1AF7BA0600C20F8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

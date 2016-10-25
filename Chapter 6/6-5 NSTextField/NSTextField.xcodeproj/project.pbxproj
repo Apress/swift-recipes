@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F36A4C721AB4FA4600842AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A4C711AB4FA4600842AD0 /* AppDelegate.swift */; };
+		F36A4C741AB4FA4600842AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36A4C731AB4FA4600842AD0 /* Images.xcassets */; };
+		F36A4C771AB4FA4600842AD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36A4C751AB4FA4600842AD0 /* MainMenu.xib */; };
+		F36A4C831AB4FA4600842AD0 /* NSTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A4C821AB4FA4600842AD0 /* NSTextFieldTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36A4C7D1AB4FA4600842AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36A4C641AB4FA4600842AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36A4C6B1AB4FA4600842AD0;
+			remoteInfo = NSTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F36A4C6C1AB4FA4600842AD0 /* NSTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36A4C701AB4FA4600842AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A4C711AB4FA4600842AD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F36A4C731AB4FA4600842AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F36A4C761AB4FA4600842AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F36A4C7C1AB4FA4600842AD0 /* NSTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36A4C811AB4FA4600842AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A4C821AB4FA4600842AD0 /* NSTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextFieldTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36A4C691AB4FA4600842AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A4C791AB4FA4600842AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F36A4C631AB4FA4600842AD0 = {
+			isa = PBXGroup;
+			children = (
+				F36A4C6E1AB4FA4600842AD0 /* NSTextField */,
+				F36A4C7F1AB4FA4600842AD0 /* NSTextFieldTests */,
+				F36A4C6D1AB4FA4600842AD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F36A4C6D1AB4FA4600842AD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36A4C6C1AB4FA4600842AD0 /* NSTextField.app */,
+				F36A4C7C1AB4FA4600842AD0 /* NSTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36A4C6E1AB4FA4600842AD0 /* NSTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F36A4C711AB4FA4600842AD0 /* AppDelegate.swift */,
+				F36A4C731AB4FA4600842AD0 /* Images.xcassets */,
+				F36A4C751AB4FA4600842AD0 /* MainMenu.xib */,
+				F36A4C6F1AB4FA4600842AD0 /* Supporting Files */,
+			);
+			path = NSTextField;
+			sourceTree = "<group>";
+		};
+		F36A4C6F1AB4FA4600842AD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36A4C701AB4FA4600842AD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F36A4C7F1AB4FA4600842AD0 /* NSTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				F36A4C821AB4FA4600842AD0 /* NSTextFieldTests.swift */,
+				F36A4C801AB4FA4600842AD0 /* Supporting Files */,
+			);
+			path = NSTextFieldTests;
+			sourceTree = "<group>";
+		};
+		F36A4C801AB4FA4600842AD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36A4C811AB4FA4600842AD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36A4C6B1AB4FA4600842AD0 /* NSTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36A4C861AB4FA4600842AD0 /* Build configuration list for PBXNativeTarget "NSTextField" */;
+			buildPhases = (
+				F36A4C681AB4FA4600842AD0 /* Sources */,
+				F36A4C691AB4FA4600842AD0 /* Frameworks */,
+				F36A4C6A1AB4FA4600842AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTextField;
+			productName = NSTextField;
+			productReference = F36A4C6C1AB4FA4600842AD0 /* NSTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36A4C7B1AB4FA4600842AD0 /* NSTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36A4C891AB4FA4600842AD0 /* Build configuration list for PBXNativeTarget "NSTextFieldTests" */;
+			buildPhases = (
+				F36A4C781AB4FA4600842AD0 /* Sources */,
+				F36A4C791AB4FA4600842AD0 /* Frameworks */,
+				F36A4C7A1AB4FA4600842AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36A4C7E1AB4FA4600842AD0 /* PBXTargetDependency */,
+			);
+			name = NSTextFieldTests;
+			productName = NSTextFieldTests;
+			productReference = F36A4C7C1AB4FA4600842AD0 /* NSTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36A4C641AB4FA4600842AD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					F36A4C6B1AB4FA4600842AD0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F36A4C7B1AB4FA4600842AD0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F36A4C6B1AB4FA4600842AD0;
+					};
+				};
+			};
+			buildConfigurationList = F36A4C671AB4FA4600842AD0 /* Build configuration list for PBXProject "NSTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F36A4C631AB4FA4600842AD0;
+			productRefGroup = F36A4C6D1AB4FA4600842AD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36A4C6B1AB4FA4600842AD0 /* NSTextField */,
+				F36A4C7B1AB4FA4600842AD0 /* NSTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36A4C6A1AB4FA4600842AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A4C741AB4FA4600842AD0 /* Images.xcassets in Resources */,
+				F36A4C771AB4FA4600842AD0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A4C7A1AB4FA4600842AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36A4C681AB4FA4600842AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A4C721AB4FA4600842AD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A4C781AB4FA4600842AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A4C831AB4FA4600842AD0 /* NSTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36A4C7E1AB4FA4600842AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36A4C6B1AB4FA4600842AD0 /* NSTextField */;
+			targetProxy = F36A4C7D1AB4FA4600842AD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F36A4C751AB4FA4600842AD0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36A4C761AB4FA4600842AD0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F36A4C841AB4FA4600842AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F36A4C851AB4FA4600842AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F36A4C871AB4FA4600842AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F36A4C881AB4FA4600842AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F36A4C8A1AB4FA4600842AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTextField.app/Contents/MacOS/NSTextField";
+			};
+			name = Debug;
+		};
+		F36A4C8B1AB4FA4600842AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTextField.app/Contents/MacOS/NSTextField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36A4C671AB4FA4600842AD0 /* Build configuration list for PBXProject "NSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A4C841AB4FA4600842AD0 /* Debug */,
+				F36A4C851AB4FA4600842AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36A4C861AB4FA4600842AD0 /* Build configuration list for PBXNativeTarget "NSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A4C871AB4FA4600842AD0 /* Debug */,
+				F36A4C881AB4FA4600842AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F36A4C891AB4FA4600842AD0 /* Build configuration list for PBXNativeTarget "NSTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A4C8A1AB4FA4600842AD0 /* Debug */,
+				F36A4C8B1AB4FA4600842AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36A4C641AB4FA4600842AD0 /* Project object */;
+}

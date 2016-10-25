@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35BD2B71AEE985500922072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35BD2B61AEE985500922072 /* AppDelegate.swift */; };
+		F35BD2B91AEE985500922072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35BD2B81AEE985500922072 /* ViewController.swift */; };
+		F35BD2BC1AEE985500922072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35BD2BA1AEE985500922072 /* Main.storyboard */; };
+		F35BD2BE1AEE985500922072 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35BD2BD1AEE985500922072 /* Images.xcassets */; };
+		F35BD2C11AEE985500922072 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35BD2BF1AEE985500922072 /* LaunchScreen.xib */; };
+		F35BD2CD1AEE985500922072 /* HTTPCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35BD2CC1AEE985500922072 /* HTTPCallsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35BD2C71AEE985500922072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35BD2A91AEE985400922072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35BD2B01AEE985500922072;
+			remoteInfo = HTTPCalls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F35BD2B11AEE985500922072 /* HTTPCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BD2B51AEE985500922072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35BD2B61AEE985500922072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35BD2B81AEE985500922072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F35BD2BB1AEE985500922072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35BD2BD1AEE985500922072 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F35BD2C01AEE985500922072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F35BD2C61AEE985500922072 /* HTTPCallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPCallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BD2CB1AEE985500922072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35BD2CC1AEE985500922072 /* HTTPCallsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPCallsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35BD2AE1AEE985500922072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BD2C31AEE985500922072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35BD2A81AEE985400922072 = {
+			isa = PBXGroup;
+			children = (
+				F35BD2B31AEE985500922072 /* HTTPCalls */,
+				F35BD2C91AEE985500922072 /* HTTPCallsTests */,
+				F35BD2B21AEE985500922072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35BD2B21AEE985500922072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35BD2B11AEE985500922072 /* HTTPCalls.app */,
+				F35BD2C61AEE985500922072 /* HTTPCallsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35BD2B31AEE985500922072 /* HTTPCalls */ = {
+			isa = PBXGroup;
+			children = (
+				F35BD2B61AEE985500922072 /* AppDelegate.swift */,
+				F35BD2B81AEE985500922072 /* ViewController.swift */,
+				F35BD2BA1AEE985500922072 /* Main.storyboard */,
+				F35BD2BD1AEE985500922072 /* Images.xcassets */,
+				F35BD2BF1AEE985500922072 /* LaunchScreen.xib */,
+				F35BD2B41AEE985500922072 /* Supporting Files */,
+			);
+			path = HTTPCalls;
+			sourceTree = "<group>";
+		};
+		F35BD2B41AEE985500922072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35BD2B51AEE985500922072 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F35BD2C91AEE985500922072 /* HTTPCallsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F35BD2CC1AEE985500922072 /* HTTPCallsTests.swift */,
+				F35BD2CA1AEE985500922072 /* Supporting Files */,
+			);
+			path = HTTPCallsTests;
+			sourceTree = "<group>";
+		};
+		F35BD2CA1AEE985500922072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35BD2CB1AEE985500922072 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35BD2B01AEE985500922072 /* HTTPCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35BD2D01AEE985500922072 /* Build configuration list for PBXNativeTarget "HTTPCalls" */;
+			buildPhases = (
+				F35BD2AD1AEE985500922072 /* Sources */,
+				F35BD2AE1AEE985500922072 /* Frameworks */,
+				F35BD2AF1AEE985500922072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPCalls;
+			productName = HTTPCalls;
+			productReference = F35BD2B11AEE985500922072 /* HTTPCalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35BD2C51AEE985500922072 /* HTTPCallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35BD2D31AEE985500922072 /* Build configuration list for PBXNativeTarget "HTTPCallsTests" */;
+			buildPhases = (
+				F35BD2C21AEE985500922072 /* Sources */,
+				F35BD2C31AEE985500922072 /* Frameworks */,
+				F35BD2C41AEE985500922072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35BD2C81AEE985500922072 /* PBXTargetDependency */,
+			);
+			name = HTTPCallsTests;
+			productName = HTTPCallsTests;
+			productReference = F35BD2C61AEE985500922072 /* HTTPCallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35BD2A91AEE985400922072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					F35BD2B01AEE985500922072 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F35BD2C51AEE985500922072 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F35BD2B01AEE985500922072;
+					};
+				};
+			};
+			buildConfigurationList = F35BD2AC1AEE985500922072 /* Build configuration list for PBXProject "HTTPCalls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35BD2A81AEE985400922072;
+			productRefGroup = F35BD2B21AEE985500922072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35BD2B01AEE985500922072 /* HTTPCalls */,
+				F35BD2C51AEE985500922072 /* HTTPCallsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35BD2AF1AEE985500922072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BD2BC1AEE985500922072 /* Main.storyboard in Resources */,
+				F35BD2C11AEE985500922072 /* LaunchScreen.xib in Resources */,
+				F35BD2BE1AEE985500922072 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BD2C41AEE985500922072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35BD2AD1AEE985500922072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BD2B91AEE985500922072 /* ViewController.swift in Sources */,
+				F35BD2B71AEE985500922072 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BD2C21AEE985500922072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BD2CD1AEE985500922072 /* HTTPCallsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35BD2C81AEE985500922072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35BD2B01AEE985500922072 /* HTTPCalls */;
+			targetProxy = F35BD2C71AEE985500922072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35BD2BA1AEE985500922072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35BD2BB1AEE985500922072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35BD2BF1AEE985500922072 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35BD2C01AEE985500922072 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35BD2CE1AEE985500922072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F35BD2CF1AEE985500922072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35BD2D11AEE985500922072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTTPCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F35BD2D21AEE985500922072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTTPCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F35BD2D41AEE985500922072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HTTPCallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTPCalls.app/HTTPCalls";
+			};
+			name = Debug;
+		};
+		F35BD2D51AEE985500922072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HTTPCallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTPCalls.app/HTTPCalls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35BD2AC1AEE985500922072 /* Build configuration list for PBXProject "HTTPCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BD2CE1AEE985500922072 /* Debug */,
+				F35BD2CF1AEE985500922072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35BD2D01AEE985500922072 /* Build configuration list for PBXNativeTarget "HTTPCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BD2D11AEE985500922072 /* Debug */,
+				F35BD2D21AEE985500922072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35BD2D31AEE985500922072 /* Build configuration list for PBXNativeTarget "HTTPCallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BD2D41AEE985500922072 /* Debug */,
+				F35BD2D51AEE985500922072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35BD2A91AEE985400922072 /* Project object */;
+}
